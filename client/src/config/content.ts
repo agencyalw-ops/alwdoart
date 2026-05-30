@@ -231,5 +231,17 @@ export const content = {
         image: "https://images.unsplash.com/photo-1578632738981-4330672f1d18?q=80&w=1000&auto=format&fit=crop"
       }
     ]
+  },
+  footer: {
+    tagline: "Creating unique digital experiences through stylized character art.",
+    social: [
+      { platform: "Instagram", icon: "📸", href: "https://www.instagram.com/alwdoart/" },
+      { platform: "Twitter", icon: "🐦", href: "https://twitter.com/alwdoart" },
+      { platform: "Email", icon: "✉", href: "mailto:agencyalw@gmail.com" }
+    ],
+    links: [
+      { label: "Privacy Policy", href: "/privacy" },
+      { label: "Terms of Service", href: "/terms" }
+    ]
   }
 };
