@@ -90,27 +90,18 @@ export default function About() {
         <h2 className="sketch-heading text-center text-black mb-3">
           {content.about.team.heading}
         </h2>
-        <p className="font-['Patrick_Hand'] text-center text-muted text-base mb-12">
+        <p className="font-['Patrick_Hand'] text-center  text-base mb-12">
           {content.about.team.description}
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
           {[
             {
-              name: "Sarah Chen",
-              role: "Founder & Curator",
-              bio: "20+ years in fine art curation",
+              name: "ALI",
+              role: "ilsutrator",
+              bio: "just ilustrator ",
             },
-            {
-              name: "Marcus Johnson",
-              role: "Head of Authentication",
-              bio: "Expert in art provenance verification",
-            },
-            {
-              name: "Elena Rodriguez",
-              role: "Community Manager",
-              bio: "Passionate about connecting artists",
-            },
+        
           ].map((member, idx) => (
             <div
               key={idx}
@@ -127,7 +118,7 @@ export default function About() {
               <p className="font-['Patrick_Hand'] text-sm font-semibold text-ink-light mb-2">
                 {member.role}
               </p>
-              <p className="font-['Patrick_Hand'] text-sm text-muted">
+              <p className="font-['Patrick_Hand'] text-sm ">
                 {member.bio}
               </p>
             </div>

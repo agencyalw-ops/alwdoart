@@ -91,7 +91,7 @@ export default function Home() {
               className="w-full h-64 md:h-80 object-cover border border-gray-300"
             />
             <div className="font-['Caveat'] text-base text-ink-light text-center pt-2">
-              Premium Art Collection ✨
+              Art Collection ✨
             </div>
             {/* Tape strip */}
             <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-3 w-12 h-5 bg-[var(--yellow)]-100 border border-[rgba(245,230,66,0.6)] opacity-70 rounded-sm"></div>
@@ -104,7 +104,7 @@ export default function Home() {
         <h2 className="sketch-heading text-center text-black mb-2">
           {content.home.features.heading}
         </h2>
-        <p className="font-['Patrick_Hand'] text-center text-muted text-sm mb-12">
+        <p className="font-['Patrick_Hand'] text-center  text-sm mb-12">
           {content.home.features.subtitle}
         </p>
 
@@ -162,7 +162,7 @@ export default function Home() {
                   <div className="font-['Caveat'] text-base text-black">
                     {item.title}
                   </div>
-                  <div className="font-['Patrick_Hand'] text-xs text-muted">
+                  <div className="font-['Patrick_Hand'] text-xs ">
                     {item.category}
                   </div>
                 </div>
@@ -187,7 +187,7 @@ export default function Home() {
             {content.home.inspiration.highlightText}
           </span>
         </h2>
-        <p className="font-['Patrick_Hand'] text-center text-muted text-sm mb-12">
+        <p className="font-['Patrick_Hand'] text-center  text-sm mb-12">
           {content.home.inspiration.subtitle}
         </p>
 
@@ -226,7 +226,7 @@ export default function Home() {
             <h2 className="sketch-heading text-black mb-2">
               {content.home.services.heading}
             </h2>
-            <p className="font-['Patrick_Hand'] text-sm text-muted">
+            <p className="font-['Patrick_Hand'] text-sm ">
               {content.home.services.subtitle}
             </p>
           </div>

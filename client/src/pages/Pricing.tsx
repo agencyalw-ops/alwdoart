@@ -69,7 +69,7 @@ export default function Pricing() {
               <h3 className="font-['Special_Elite'] text-2xl font-bold text-black mb-2">
                 {plan.name}
               </h3>
-              <p className="font-['Patrick_Hand'] text-sm text-muted mb-6">
+              <p className="font-['Patrick_Hand'] text-sm  mb-6">
                 {plan.description}
               </p>
 
@@ -77,7 +77,7 @@ export default function Pricing() {
                 <div className="font-['Permanent_Marker'] text-4xl text-black">
                   {plan.price}
                 </div>
-                <div className="font-['Patrick_Hand'] text-sm text-muted">
+                <div className="font-['Patrick_Hand'] text-sm ">
                   {plan.period}
                 </div>
               </div>
@@ -125,10 +125,7 @@ export default function Pricing() {
               q: "What payment methods do you accept?",
               a: "We accept all major credit cards, PayPal, and bank transfers for enterprise plans.",
             },
-            {
-              q: "Is there a free trial?",
-              a: "Yes, we offer a 7-day free trial for all plans. No credit card required.",
-            },
+        
             {
               q: "What if I'm not satisfied?",
               a: "We offer a 30-day money-back guarantee on all plans. No questions asked.",
